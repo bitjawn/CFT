@@ -22,7 +22,7 @@
 
 ```bash
 # Installation
- clone https://github.com/bitjawn/CBT.git or download the zip
+ clone https://github.com/bitjawn/CFT.git or download the zip
 
 # NPM Tools
  npm install --global bower live-server
