@@ -25,6 +25,11 @@
 		margin-top:1px;
 	}
 
+	.is-dropdown-submenu {
+		margin-top:5px;
+		border-top: none;
+	}
+
 	ul[role="menubar"] {
 		position: absolute;
 		top:-1px;
