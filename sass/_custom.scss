@@ -20,7 +20,6 @@
 	.dropdown.menu > li.is-dropdown-submenu-parent > a {
 		color: $white + 20;
 		background-color: $main-color + 45;
-		// padding:0;
 		margin-left: 10px;
 		border-radius: 10px;
 		margin-top:1px;
@@ -29,7 +28,6 @@
 	ul[role="menubar"] {
 		position: absolute;
 		top:-1px;
-		// margin:0;
 		padding:0;
 	}
 
