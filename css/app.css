@@ -11543,7 +11543,8 @@ a.thumbnail image {
     color: white;
     background-color: #47b9c4;
     margin-left: 10px;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin-top: 1px; }
   .top-bar-left ul[role="menubar"] {
     position: absolute;
     top: -1px;
