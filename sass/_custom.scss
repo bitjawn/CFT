@@ -1,0 +1,42 @@
+.top-bar-left {
+	color:eval-bg-color();
+
+	a {
+		color:eval-bg-color() !important;
+	}
+
+	a:hover {
+		background-color: $main-color + 20;
+	}
+
+	.dropdown-menu {
+		color:eval-bg-color();
+	}
+
+	li {
+		color:eval-bg-color();
+	}
+
+	.dropdown.menu > li.is-dropdown-submenu-parent > a {
+		color: $white + 20;
+		background-color: $main-color + 45;
+		// padding:0;
+		margin-left: 10px;
+		border-radius: 10px;
+	}
+
+	ul[role="menubar"] {
+		position: absolute;
+		top:-1px;
+		// margin:0;
+		padding:0;
+	}
+
+	ul[role="menubar"] li {
+		margin:0px;
+		padding:0;
+		padding-top:3px;
+	}
+
+
+}

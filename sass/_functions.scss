@@ -1,0 +1,55 @@
+@function set-text-color($color) {
+	@if (lightness($color) > 50) {
+		@return #000000;
+	} @else {
+		@return #ffffff;
+	}
+}
+
+@function eval-bg-color() {
+	@if (lightness($bg-default) > 50) {
+		@return $white;
+	} @else {
+		@return $black;
+	}
+}
+
+@function eval-color($color) {
+	@if ($color == $red) {
+		@return $white;
+	} @else if ($color == $white) {
+		@return $black;
+	} @else if ($color == $gray) {
+		@return $white;
+	} @else if ($color == $pink) {
+		@return $duke-blue;
+	} @else if ($color == $brown) {
+		@return $white;
+	} @else if ($color == $orange) {
+		@return $duke-blue;
+	} @else if ($color == $yellow) {
+		@return $duke-blue;
+	} @else if ($color == $green) {
+		@return $white;
+	} @else if ($color == $cyan) {
+		@return $black;
+	} @else if ($color == $blue) {
+		@return $white;
+	} @else if ($color == $violet) {
+		@return $white;
+	} @else if ($color == $black) {
+		@return $white;
+	} @else if ($color == $duke-blue) {
+		@return $white;
+	} @else if ($color == $blue-gray) {
+		@return $white;
+	} @else if ($color == $main-green) {
+		@return $white;
+	} @else if ($color == $alice-blue) {
+		@return $yellow;
+	} @else if ($color == $ash-gray) {
+		@return $white;
+	} @else if ($color == $main-color) {
+		@return $white;
+	}
+}
