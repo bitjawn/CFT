@@ -11556,5 +11556,8 @@ a.thumbnail image {
     margin: 0px;
     padding: 0;
     padding-top: 3px; }
+  .top-bar-left li[class "is-dropdown-menu-parent opens-right"] a::after {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF #FFFFFF; }
 
 /*# sourceMappingURL=app.css.map */

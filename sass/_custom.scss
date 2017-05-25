@@ -42,8 +42,15 @@
 		padding-top:3px;
 	}
 
+	// .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+	// 	color: $white;
+	// 	border-color: #1779ba $white $white;
+	// }
 
-
+	li[class"is-dropdown-menu-parent opens-right"] a::after {
+		background-color: $white;
+		border-color:$white $white;
+	}
 }
 
 @media print, screen and (min-width: 40em) {
@@ -51,5 +58,5 @@
 }
 
 @media print, screen and (min-width: 64em) {
-	
+
 }
